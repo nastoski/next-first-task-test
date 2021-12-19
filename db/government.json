@@ -1,0 +1,193 @@
+[
+  {
+    "id": 1,
+    "slug": "covid-19-coronavirus",
+    "title": "COVID-19 coronavirus",
+    "description": "Information and advice on the COVID-19 coronavirus for the community and businesses in Western Australia.",
+    "info": "<p class=wa-paragraph>The WA Government has declared a State of Emergency for Western Australia. For updated details, including State of Emergency Declarations and Directions, visit COVID-19 coronavirus: State of Emergency Declarations</p>",
+    "subcategories": [
+      {
+        "id": 1,
+        "title": "Latest Updates",
+        "image": "/images/government/covid19/image1.jpg",
+        "description": "Keep up to date with the latest news and advice."
+      },
+      {
+        "id": 2,
+        "title": "WA’s Safe Transition Plan",
+        "image": "/images/government/covid19/image2.jpg",
+        "description": "WA will safely transition and ease border controls once a 90 per cent double dose vaccination rate is achieved."
+      },
+      {
+        "id": 3,
+        "title": "COVID-19 Vaccines",
+        "image": "/images/government/covid19/image3.jpg",
+        "description": "The COVID-19 vaccine is an important measure to keep WA safe and healthy, and will help protect yourself, your family and the community"
+      },
+      {
+        "id": 4,
+        "title": "What you can and can't do",
+        "image": "/images/government/covid19/image4.jpg",
+        "description": "Information about current restrictions in Western Australia."
+      },
+      {
+        "id": 5,
+        "title": "Travel and quarantine",
+        "image": "/images/government/covid19/image5.jpg",
+        "description": "Find out more about entering and travelling around WA, and quarantine requirements."
+      },
+      {
+        "id": 6,
+        "title": "SafeWa",
+        "image": "/images/government/covid19/image6.jpg",
+        "description": "Find out about our safe, easy and convenient app that helps with mandatory contact registration."
+      },
+      {
+        "id": 7,
+        "title": "COVID Safety Plans and Guidelines",
+        "image": "/images/government/covid19/image7.jpg",
+        "description": "Latest information and tools, including industry-specific COVID Safety Plans and Guidelines."
+      },
+      {
+        "id": 8,
+        "title": "Health professionals advice",
+        "image": "/images/government/covid19/image8.jpg",
+        "description": "Advice from the WA Department of Health."
+      },
+      {
+        "id": 9,
+        "title": "Community Advice",
+        "image": "/images/government/covid19/image9.jpg",
+        "description": "Find out about current restrictions, financial help and travel advice."
+      },
+      {
+        "id": 10,
+        "title": "Business tools and information",
+        "image": "/images/government/covid19/image10.jpg",
+        "description": "Find out about COVID Safety plans, financial support and current restrictions for business."
+      },
+      {
+        "id": 11,
+        "title": "Wa recovery",
+        "image": "/images/government/covid19/image11.jpg",
+        "description": "Find out how we're working together to restore our economy and industry, regroup our community and revamp our infrastructure."
+      },
+      {
+        "id": 12,
+        "title": "Translated advice",
+        "image": "/images/government/covid19/image12.jpg",
+        "description": "Information and advice in languages other than English."
+      }
+    ],
+    "announcements": [],
+    "publications": [
+      {
+        "id": 1,
+        "title": "Western Australian Government Pandemic Plan",
+        "pdf_description": "PDF (626.15KB)",
+        "docx_description": "DOCX (225.69KB)",
+        "docx": "/files/covid-19/WAG_pandemic_plan_0.DOCX",
+        "pdf": "/files/covid-19/WAG_pandemic_plan.pdf"
+      }
+    ],
+    "provided": "Department of the Premier and Cabinet",
+    "contact": {
+      "covid": "13 26843",
+      "interstate": "1800 595 206",
+      "international": "+61 8 9118 3100"
+    },
+    "reviewed": "Page reviewed 13 October 2020"
+  },
+  {
+    "id": 2,
+    "slug": "safer-wa-children-and-young-people",
+    "title": "Safer WA for Children and Young People",
+    "description": "It's up to all of us",
+    "info": "<p class=wa-paragraph>The Western Australian Government apologises unreservedly for the sexual abuse of children in Western Australian Government institutions.</p> <p class=wa-paragraph>Safer WA for Children and Young People was developed as part of the Western Australian Government's implementation of the recommendations from the Royal Commission into Institutional Responses to Child Sexual Abuse.</p>",
+    "subcategories": [
+      {
+        "id": 1,
+        "title": "I'm worried about a child or young person",
+        "image": "/images/government/saferwa/image1.jpg",
+        "description": "Resources to help if you're worried a child is unsafe."
+      },
+      {
+        "id": 2,
+        "title": "Online Safety",
+        "image": "/images/government/saferwa/image2.jpg",
+        "description": "Information about keeping children and young people safe online."
+      },
+      {
+        "id": 3,
+        "title": "National Principles for Child Safe Organisations",
+        "image": "/images/government/saferwa/image3.jpg",
+        "description": "Standards to enable child safety and wellbeing across Australia."
+      },
+      {
+        "id": 4,
+        "title": "Support for survivors of child sexual abuse",
+        "image": "/images/government/saferwa/image4.jpg",
+        "description": "Where to go for help or support."
+      },
+      {
+        "id": 5,
+        "title": "Redress, compensation, litigation and apologies",
+        "image": "/images/government/saferwa/image5.jpg",
+        "description": "Information for survivors about Redress."
+      },
+      {
+        "id": 6,
+        "title": "How to make a complaint if you are a child or young person",
+        "image": "/images/government/saferwa/image6.jpg",
+        "description": "You can lodge a complaint against organisations you come into contact with."
+      },
+      {
+        "id": 7,
+        "title": "Implementing the recommendations of the Royal Commission to Institutional Responses into Child Sexual Abuse",
+        "image": "/images/government/saferwa/image7.jpg",
+        "description": "Find out how the WA Government is implementing the recommendations from the Royal Commission to Institutional Responses into Child Sexual Abuse."
+      },
+      {
+        "id": 8,
+        "title": "Oversight of child safety in Western Australia",
+        "image": "/images/government/saferwa/image8.jpg",
+        "description": "Find out how the WA Government is working hard to improve the way we work to protect children."
+      },
+      {
+        "id": 9,
+        "title": "Messages from victims and survivors",
+        "image": "/images/government/saferwa/image9.jpg",
+        "description": "‘Message to Australia’ gave those who bravely told their story to the Royal Commission an opportunity to share a message with the Australian community about their experience and hopes for creating a safer future for children. Read their messages here."
+      }
+    ],
+    "announcements": [],
+    "publications": [
+      {
+        "id": 1,
+        "title": "Apology speech by Premier McGowan on the Royal Commission into Institutional Responses to Child Sexual Abuse",
+        "pdf_description": "Royal Commission Response and Apology (PDF 459.73KB)",
+        "docx_description": "FINAL Premier Speech - Royal Commission Response and Apology (DOCX 66.03KB)",
+        "docx": "/files/safer-wa/FINAL Premier Speech - Royal Commission Response and Apology.docx",
+        "pdf": "/files/safer-wa/Royal-Commission-Response-and-Apology.pdf"
+      },
+      {
+        "id": 2,
+        "title": "Progress Report 2019 - Healing past hurts; Protecting children now; Preventing further harm",
+        "pdf_description": "2019 Royal Commission Progress Report (PDF 4.28MB)",
+        "docx_description": "",
+        "docx": "",
+        "pdf": "/files/safer-wa/2019 Royal Commission Progress Report.pdf"
+      },
+      {
+        "id": 3,
+        "title": "Progress Report - Royal Commission into Institutional Responses to Child Sexual Abuse 2018",
+        "pdf_description": "Royal Commission Progress Report (PDF 915.45KB)",
+        "docx_description": "",
+        "docx": "",
+        "pdf": "/files/safer-wa/Royal Commission Progress Report.pdf"
+      }
+    ],
+    "provided": "Department of Communities",
+    "reviewed": "Page reviewed 19 November 2021"
+  }
+]

@@ -1,0 +1,1639 @@
+[
+  {
+    "id": 1,
+    "slug": "aboriginal-affairs",
+    "title": "Aboriginal affairs",
+    "description": "Managing and supporting Aboriginal welfare, heritage and culture.",
+    "subcategories": [
+      {
+        "id": 1,
+        "slug2": "aboriginal-business-development",
+        "title": "Aboriginal business development",
+        "description": "Services and advice to promote and support the growth of existing and establishment of new Aboriginal businesses.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Apply for a Community Stewardship Grant",
+            "description": "These grants support community-based projects that serve to protect and restore the local environment.",
+            "category": "Department of Primary Industries and Regional Development",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "slug2": "aboriginal-cultural-heritage",
+        "title": "Aboriginal cultural heritage",
+        "description": "Aboriginal oral histories, genealogies and languages including cultural resource collections.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Aboriginal history",
+            "description": "Working in partnership with Aboriginal communities and other stakeholders to connect people to their Aboriginal ancestry, promote reconciliation and celebrate the richness of our shared history.",
+            "category": "Department of Local Government, Sport and Cultural Industries",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Access the Storylines Aboriginal history database",
+            "description": "Engage with Aboriginal stories, language, perspectives and history.",
+            "category": "State Library of Western Australia",
+            "serviceintention": "info"
+          },
+          {
+            "id": 3,
+            "title": "Search Aboriginal sites or heritage places (AHIS)",
+            "description": "Access to information on Aboriginal sites, other heritage places and Aboriginal Heritage Surveys is available via the Aboriginal Heritage Inquiry System (AHIS) or by download.",
+            "category": "Department of Planning, Lands and Heritage",
+            "serviceintention": "info"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "slug2": "aboriginal-health-services",
+        "title": "Aboriginal health services",
+        "description": "Promoting and supporting the health and well-being of members of the Aboriginal community.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Find metropolitan aged-care services for Aboriginal people",
+            "description": "Healthy WA provides a list of aged-care services available for Aboriginal people.",
+            "category": "Department of Health",
+            "serviceintention": "info"
+          },
+          {
+            "id": 2,
+            "title": "Find metropolitan counselling services for Aboriginal people",
+            "description": "Healthy WA provides a list of counselling services available for Aboriginal people.",
+            "category": "Department of Health",
+            "serviceintention": "info"
+          },
+          {
+            "id": 3,
+            "title": "Find metropolitan drug and alcohol services for Aboriginal people",
+            "description": "Healthy WA provides a list of drug and alcohol services available for Aboriginal people.",
+            "category": "Department of Health",
+            "serviceintention": "info"
+          },
+          {
+            "id": 4,
+            "title": "Find metropolitan health services for Aboriginal people",
+            "description": "Healthy WA provides a list of health services available for Aboriginal people.",
+            "category": "Department of Health",
+            "serviceintention": "info"
+          },
+          {
+            "id": 5,
+            "title": "Find metropolitan mental health services for Aboriginal people",
+            "description": "Healthy WA provides a list of mental health services available for Aboriginal people.",
+            "category": "Department of Health",
+            "serviceintention": "info"
+          },
+          {
+            "id": 6,
+            "title": "Find metropolitan youth services for Aboriginal people",
+            "description": "Healthy WA provides a list of youth services available for Aboriginal people.",
+            "category": "Department of Health",
+            "serviceintention": "info"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "slug2": "aboriginal-heritage-conservation",
+        "title": "Aboriginal heritage conservation",
+        "description": "Protecting and preserving Aboriginal heritage areas.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Apply for a Community Stewardship Grant",
+            "description": "These grants support community-based projects that serve to protect and restore the local environment.",
+            "category": "Department of Primary Industries and Regional Development",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Apply for a grant to preserve, promote and protect Aboriginal sites",
+            "description": "The program offers financial support to Aboriginal not-for-profit organisations to undertake projects that protect and preserve registered Aboriginal sites.",
+            "category": "Department of Planning, Lands and Heritage",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Apply for a permit to access or travel through Aboriginal land",
+            "description": "Entry Permits are required for entry onto or through proclaimed Aboriginal Lands Trust reserves.",
+            "category": "Department of Planning, Lands and Heritage",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Comment on Planning, Lands and Heritage public consultations",
+            "description": "Department of Planning, Lands and Heritage's Citizen Space Consultation Hub.",
+            "category": "Department of Planning, Lands and Heritage",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 5,
+            "title": "Land use under the Aboriginal Heritage Act 1972",
+            "description": "Information about Aboriginal lands use under the Act, including permissions and offenses under sections 10, 16, 17 and 18.",
+            "category": "Department of Planning, Lands and Heritage",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 6,
+            "title": "Program: Murujuga Rock Art",
+            "description": "The Western Australian Government recognises the Traditional Owners and Custodians of Murujuga; the past, present and future generations of Ngurra-ra Ngarli, and their ongoing connection to this sacred country.",
+            "category": "Department of Water and Environmental Regulation",
+            "serviceintention": "info"
+          },
+          {
+            "id": 7,
+            "title": "Report an Aboriginal Heritage site or an offence against one",
+            "description": "Preservation of Aboriginal sites is afforded by Section 17 of the Aboriginal Heritage Act 1972 and Regulations 6 to 10 of the Aboriginal Heritage Regulations 1974.",
+            "category": "Department of Planning, Lands and Heritage",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "slug2": "aboriginal-reconciliation",
+        "title": "Aboriginal reconciliation",
+        "description": "Initiatives to increase and promote cross-cultural awareness.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Aboriginal and Torres Strait Islander cultural awareness training",
+            "description": "Cultural awareness training for public sector employees and board members.",
+            "category": "Public Sector Commission",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Aboriginal history",
+            "description": "Working in partnership with Aboriginal communities and other stakeholders to connect people to their Aboriginal ancestry, promote reconciliation and celebrate the richness of our shared history.",
+            "category": "Department of Local Government, Sport and Cultural Industries",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "slug2": "aboriginal-welfare",
+        "title": "Aboriginal welfare",
+        "description": "Social support, education and employment services.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Become a workplace of choice for Aboriginal people",
+            "description": "Your local Jobs and Skills Centre can help you become a workplace of choice, to attract and retain Aboriginal employees.",
+            "category": "Department of Training and Workforce Development",
+            "serviceintention": "info"
+          },
+          {
+            "id": 2,
+            "title": "Register as an Aboriginal jobseeker to find employment",
+            "description": "To assist and support Aboriginal jobseekers to find employment, we have created an Aboriginal Services jobs board.",
+            "category": "Department of Training and Workforce Development",
+            "serviceintention": "info"
+          },
+          {
+            "id": 3,
+            "title": "Register as an employer of Aboriginal people and advertise vacancies",
+            "description": "Find out about the Aboriginal Services jobs board, and how you can use it to advertise your employment opportunities to Aboriginal people.",
+            "category": "Department of Training and Workforce Development",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Register for events for Aboriginal jobseekers or employers",
+            "description": "Jobseekers and employers can register with Jobs and Skills WA to know about what events are happening each month across Western Australia.",
+            "category": "Department of Training and Workforce Development",
+            "serviceintention": "info"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "building-utilities-and-essential-services",
+    "title": "Building, utilities and essential services",
+    "description": "Public land management including buildings, roads and transport networks, water and electricity supply, waste management and public housing.",
+    "subcategories": [
+      {
+        "id": 1,
+        "slug2": "energy-supply",
+        "title": "Energy supply",
+        "description": "Pay an energy bill, report faults in your area, and find out about network coverage.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Apply for an energy concession",
+            "description": "A person who holds an appropriate concession card may be eligible for an energy assistance payment as a subsidy to assist with electricity costs.",
+            "category": "Department of Finance",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Apply for an energy rebate or register a concession card",
+            "description": "Learn more about which rebates or concessions you may be eligible for and add your concession card details to your Synergy account, so you can start saving now.",
+            "category": "Synergy",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Apply for an extension on your Synergy bill payment date",
+            "description": "Apply for a payment extension if you are experiencing difficulty paying your bill on time and need a little more time to pay.",
+            "category": "Synergy",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Apply for the thermoregulatory dysfunction energy subsidy",
+            "description": "Offset the energy costs associated with temperature control at the home of eligible people or their dependents with a thermoregulatory dysfunction.",
+            "category": "Department of Finance",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 5,
+            "title": "Make a claim for damage or loss due to power failure",
+            "description": "Occasionally, power failure can cause loss or damage. For this reason we provide affected customers with the opportunity to claim compensation.",
+            "category": "Western Power",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 6,
+            "title": "Make an energy concession extension enquiry",
+            "description": "Make an online enquiry regarding an energy assistance payment under the energy concession extension scheme (ECES).",
+            "category": "Department of Finance",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 7,
+            "title": "Make an energy subsidy enquiry",
+            "description": "Enquire online about the life support equipment energy subsidy or the thermoregulatory dysfunction subsidy.",
+            "category": "Department of Finance",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 8,
+            "title": "Make an enquiry about pensioners and seniors rebates",
+            "description": "Local government rates may be deferred or rebated if you are an eligible pensioner or senior.",
+            "category": "Department of Finance",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 9,
+            "title": "Manage your Horizon Power account",
+            "description": "My Account is Horizon Powers online customer portal where all your billing and payment information is stored in one convenient place.",
+            "category": "Horizon Power",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 10,
+            "title": "Manage your Synergy account",
+            "description": "Take control with our most convenient ways to pay your Synergy bill, update your details, manage your connections or track your usage.",
+            "category": "Synergy",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 11,
+            "title": "Pay your Horizon Power bill",
+            "description": "Payment options for your Horizon Power electricity bill.",
+            "category": "Horizon Power",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 12,
+            "title": "Pay your Synergy bill",
+            "description": "Payment options for you Synergy electricity bill.",
+            "category": "Synergy",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 13,
+            "title": "Report a faulty streetlight",
+            "description": "Search our map and report a faulty streetlight online.",
+            "category": "Western Power",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 14,
+            "title": "Report a non-urgent issue to Western Power",
+            "description": "Report a non-urgent issue to Western Power like graffiti or your power quality.",
+            "category": "Western Power",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 15,
+            "title": "Request an energy connection in a new building",
+            "description": "Apply for a temporary or permanent supply to be connected to your new home.",
+            "category": "Synergy",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 16,
+            "title": "Search for power outage information",
+            "description": "Stay up-to-date with power outages in your area.",
+            "category": "Western Power",
+            "serviceintention": "info"
+          },
+          {
+            "id": 17,
+            "title": "Submit an electricity meter reading",
+            "description": "Submit your own electricity meter reading through our online portal.",
+            "category": "Western Power",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 18,
+            "title": "Switch your Synergy bill to paperless bills",
+            "description": "Get your Synergy bills delivered to your inbox combined with handy SMS reminders.",
+            "category": "Synergy",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 19,
+            "title": "Transfer your electricity account when you are moving house",
+            "description": "Whether youre moving in or out, you can create, close or transfer your electricity connection online.",
+            "category": "Synergy",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 20,
+            "title": "View Western Power's network capacity",
+            "description": "The Network Capacity Mapping Tool (NCMT) provides you with visualization of Western Powers network capacity.",
+            "category": "Western Power",
+            "serviceintention": "info"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "slug2": "government-building-management-and-construction",
+        "title": "Government building management and construction",
+        "description": "Public land management including buildings, roads and transport networks, water and electricity supply, waste management and public housing.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Local government",
+            "description": "The Department of Local Government, Sport and Cultural Industries provides support across the local government sector to those requesting assistance and others identified as needing targeted intervention or support.",
+            "category": "Department of Local Government, Sport and Cultural Industries",
+            "serviceintention": "info"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "slug2": "integrated-essential-services",
+        "title": "Integrated essential services",
+        "description": "Bringing together and planning services for the local community.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "DWER Policy Framework",
+            "description": "The Department of Water and Environmental Regulation (the department) has implemented a Policy Framework to ensure all documents across our business areas are classified into a clear and structured document hierarchy and governance model",
+            "category": "Department of Water and Environmental Regulation",
+            "serviceintention": "info"
+          },
+          {
+            "id": 2,
+            "title": "DWER Regulatory documents",
+            "description": "The Department of Water and Environmental Regulation (the department) has implemented a Policy Framework initiative to classify all documents across our business areas into a clear and structured document hierarchy and governance model.",
+            "category": "Department of Water and Environmental Regulation",
+            "serviceintention": "info"
+          },
+          {
+            "id": 3,
+            "title": "Local government information and comparison",
+            "description": "MyCouncil is a place where you can find out how local governments are raising, spending and managing their money.",
+            "category": "Department of Local Government, Sport and Cultural Industries",
+            "serviceintention": "info"
+          },
+          {
+            "id": 4,
+            "title": "",
+            "description": "",
+            "category": "Department of Water and Environmental Regulation",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "slug2": "public-housing",
+        "title": "Public housing",
+        "description": "Managing your rental property including paying rent and dealing with maintenance issues.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Access Housing Online",
+            "description": "Housing Online is a simple and secure way to access housing services 24/7.",
+            "category": "Department of Communities",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Asbestos Management and Register",
+            "description": "Department of Communities asbestos register.",
+            "category": "Department of Communities",
+            "serviceintention": "info"
+          },
+          {
+            "id": 3,
+            "title": "Housing Authority online bill payment",
+            "description": "Housing tenancy clients can pay rent and related bills online. ",
+            "category": "Department of Communities",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Housing Authority online maintenance request form",
+            "description": "The Housing Authority endeavours to respond to maintenance issues as soon as possible.",
+            "category": "Department of Communities",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 5,
+            "title": "Pay your Housing Authority bond loan",
+            "description": "The Housing Authority offers bond assistance and two weeks' rent in advance as an interest-free loan to help people get accommodation in the private rental market. Maximum loan depends on your circumstances.",
+            "category": "Department of Communities",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 6,
+            "title": "Report disruptive behaviour",
+            "description": "Report disruptive behaviour at a public housing property.",
+            "category": "Department of Communities",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "slug2": "public-land-management",
+        "title": "Public land management",
+        "description": "Managing buildings and land for community use and planning public land use.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Find a cemetery in the metropolitan area",
+            "description": "The Metropolitan Cemeteries Board manages and maintains six cemetery and memorial garden sites around Perth.",
+            "category": "Metropolitan Cemeteries Board",
+            "serviceintention": "info"
+          },
+          {
+            "id": 2,
+            "title": "Pay a Department of Mines, Industry Regulation and Safety account",
+            "description": "How to make payments online for the departments Building and Energy, Consumer Protection and WorkSafe divisions.",
+            "category": "Department of Mines, Industry Regulation and Safety",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "slug2": "regional-development",
+        "title": "Regional development",
+        "description": "Buildings and facilities to deliver services in rural and regional areas.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Apply for a Community Stewardship Grant",
+            "description": "These grants support community-based projects that serve to protect and restore the local environment.",
+            "category": "Department of Primary Industries and Regional Development",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "slug2": "transport-network-maintenance",
+        "title": "Transport network maintenance",
+        "description": "Managing and maintaining public transport networks, including public car parks, bus shelters, train stations, footpaths and cycle ways.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Book a Transwa coach or train journey",
+            "description": "Make a booking online for Transwa coach or train services to regional parts of WA.",
+            "category": "Public Transport Authority",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Cycling",
+            "description": "Cycling information and resources for people who commute by bike or wish to explore Perth and regional Western Australia.",
+            "category": "Department of Transport",
+            "serviceintention": "info"
+          },
+          {
+            "id": 3,
+            "title": "Report a road fault",
+            "description": "Use our online complaints and feedback form to report a fault on our roads.",
+            "category": "Main Roads Western Australia",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Report a traffic flow issue",
+            "description": "Call 138 138 if you are involved in or witness an incident that is blocking traffic flow on Perth' freeways or in the CBD.",
+            "category": "Main Roads Western Australia",
+            "serviceintention": "info"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "slug2": "waste-management",
+        "title": "Waste management",
+        "description": "Recycling, collecting rubbish, managing waste and sewerage, reporting littering and paying an infringement.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Order Keep Australia Beautiful resources",
+            "description": "Keep Australia Beautiful WA provides litter bags and cleanup kits, butt bins, ashtrays and tools to reduce waste.",
+            "category": "Keep Australia Beautiful WA",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Pay your litter infringements",
+            "description": "You may be issued an infringement for throwing or dropping litter, even unintentionally, as it is an offence according to the Litter Act 1979.",
+            "category": "Keep Australia Beautiful WA",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Report littering and illegal dumping",
+            "description": "The Litter Report Scheme allows registered litter reporters to report littering or dumping of matter from a car, trailer or boat.",
+            "category": "Keep Australia Beautiful WA",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "slug2": "water-supply",
+        "title": "Water supply",
+        "description": "Licensing, water rosters and restrictions, pay a water bill and supply information.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Apply for a water licence or permit",
+            "description": "You may need a water licence for taking or interfering with surface water, overland flow water or groundwater.",
+            "category": "Department of Water and Environmental Regulation",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Apply for a watering exemption",
+            "description": "Apply for a watering exemption for your new lawn or garden, including roll-on lawn, runners, shredded lawn and seed.",
+            "category": "Water Corporation",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Check garden bore water restrictions",
+            "description": "Check bore sprinkler restrictions, rosters and exemption criteria",
+            "category": "Department of Water and Environmental Regulation",
+            "serviceintention": "info"
+          },
+          {
+            "id": 4,
+            "title": "Check Perth groundwater information",
+            "description": "The Perth Groundwater Map has been designed to help water-bore drillers, irrigators, and private householders establish groundwater bores in the watertable aquifer.",
+            "category": "Department of Water and Environmental Regulation",
+            "serviceintention": "info"
+          },
+          {
+            "id": 5,
+            "title": "Check surface and groundwater data",
+            "description": "View water sampling information via a map-driven system.",
+            "category": "Department of Water and Environmental Regulation",
+            "serviceintention": "data"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "business-support",
+    "title": "Business support",
+    "description": "Tools and guidance for businesses, including registering and licensing your business and consumer protection issues.",
+    "subcategories": [
+      {
+        "id": 1,
+        "slug2": "business-accounting-and-reporting",
+        "title": "Business accounting and reporting",
+        "description": "Advice for businesses, organisations and other government agencies on maintaining good record-keeping and meeting State Government reporting requirements.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Local government compliance audit return",
+            "description": "Each local government is required to carry out a compliance audit against the requirements of the compliance audit return. ",
+            "category": "Department of Local Government, Sport and Cultural Industries",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Lodge a security bond",
+            "description": "Use BondsOnline, Western Australian Bond Administrator's online system, to lodge a security bond.",
+            "category": "Department of Mines, Industry Regulation and Safety",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Lodge resources safety documents and data",
+            "description": "Lodge documents and data electronically. You can monitor the progress of submissions and upgrade and manage your licence details online.",
+            "category": "Department of Mines, Industry Regulation and Safety",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Lodge unclaimed money with Treasury",
+            "description": "Organisations must provide the Department of Treasury with a summary of the unclaimed monies they hold.",
+            "category": "Department of Treasury",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 5,
+            "title": "Unclaimed money",
+            "description": "You may be owed money that can be returned to you.",
+            "category": "Department of Treasury",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "slug2": "business-registration-and-licensing",
+        "title": "Business registration and licensing",
+        "description": "Licences and permits to run your business including business registration.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Advertised liquor licence applications",
+            "description": "The Department of Local Government, Sport and Cultural Industries is responsible for determining applications and other matters relating to liquor licensing.",
+            "category": "Department of Local Government, Sport and Cultural Industries",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Apply for a builders registration",
+            "description": "Under the Building Services (Registration) Act 2011, only a registered building practitioner or contractor can perform particular building work.",
+            "category": "Department of Mines, Industry Regulation and Safety",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Apply for a charity licence",
+            "description": "Organisations that raise funds in Western Australia, as defined by section 6 of the Charitable Collections Act 1946, are required to be licensed.",
+            "category": "Department of Mines, Industry Regulation and Safety",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Apply for a gas licence",
+            "description": "A gasfitting licence is required under the Gas Standards Act 1972 for any person working on a consumer gas installation in Western Australia.",
+            "category": "Department of Mines, Industry Regulation and Safety",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 5,
+            "title": "Apply for a motor vehicle trade event or expo licence",
+            "description": "Information about working at exhibitions in the motor vehicle industry in Western Australia.",
+            "category": "Department of Mines, Industry Regulation and Safety",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "slug2": "business-sponsorship",
+        "title": "Business sponsorship",
+        "description": "Corporate sponsorship application processes, opportunities, and guidelines.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Apply for Healthway funding",
+            "description": "Healthway provides funding to sport, arts, racing, community events, health and research organisations to help create a healthier WA.",
+            "category": "Healthway",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "slug2": "consumer-protection",
+        "title": "Consumer protection",
+        "description": "Rights and obligations for consumers, businesses, landlords and tenants.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Buying and selling cars, boats and motorbikes",
+            "description": "What to look out for when buying a car, boat or other vehicle, your rights with repairs and servicing, and tips on how to sell your vehicle.",
+            "category": "Department of Mines, Industry Regulation and Safety",
+            "serviceintention": "info"
+          },
+          {
+            "id": 2,
+            "title": "Complain about a non-government school",
+            "description": "Complaints are resolved by each non-government school, following a Complaints Management Standard. ",
+            "category": "Department of Education",
+            "serviceintention": "info"
+          },
+          {
+            "id": 3,
+            "title": "Complain about a public authority",
+            "description": "The Ombudsman investigates complaints about Western Australian public authorities.",
+            "category": "Ombudsman Western Australia",
+            "serviceintention": "info"
+          },
+          {
+            "id": 4,
+            "title": "Complain about a registered training organisation",
+            "description": "The Training Accreditation Council investigates complaints about registered training organisations (RTOs) under the Standards for Registered Training Organisations 2015.",
+            "category": "Training Accreditation Council",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 5,
+            "title": "Find advice for consumers, businesses, landlords and tenants",
+            "description": "Rights and responsibilities for consumers and traders under the Australian Consumer Law (ACL) that need to be considered when buying, selling, or agreeing to contracts.",
+            "category": "Department of Mines, Industry Regulation and Safety",
+            "serviceintention": "info"
+          },
+          {
+            "id": 6,
+            "title": "Lodge a consumer complaint about goods or services purchases",
+            "description": "Complain about a problem with goods or services purchased in or from Western Australia or the Indian Ocean Territories.",
+            "category": "Department of Mines, Industry Regulation and Safety",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 7,
+            "title": "Make a fidelity guarantee account claim",
+            "description": "For people who suffer loss through the criminal or fraudulent actions of real estate industry businesses or employees in the course of a real estate transaction.",
+            "category": "Department of Mines, Industry Regulation and Safety",
+            "serviceintention": "info"
+          },
+          {
+            "id": 8,
+            "title": "Make a health and disability service complaint",
+            "description": "The Health and Disability Services Complaints Office (HaDSCO) is an independent Statutory Authority which resolves complaints about health, disability and mental health services in Western Australia and the Indian Ocean Territories. Complaint resolution services are free and available to everyone.",
+            "category": "Health and Disability Services Complaints Office",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "slug2": "fair-trading",
+        "title": "Fair trading",
+        "description": "Promoting good business conduct to ensure product safety and quality and compliance with competition and consumer laws.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Pay a Department of Mines, Industry Regulation and Safety account",
+            "description": "How to make payments online for the departments Building and Energy, Consumer Protection and WorkSafe divisions.",
+            "category": "Department of Mines, Industry Regulation and Safety",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Pay a liquor fine",
+            "description": "Pay your liquor fine by post, in person or online.",
+            "category": "Western Australia Police Force",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Pay a pawnbroker and secondhand dealer final demand notice",
+            "description": "How pawnbrokers and secondhand dealers can pay a final demand notice online, in person or by post.",
+            "category": "Western Australia Police Force",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Pay a pawnbroker and secondhand dealer fine",
+            "description": "Pawnbrokers and secondhand dealers can pay their fines online, in person or by post.",
+            "category": "Western Australia Police Force",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 5,
+            "title": "Pay a security infringement final demand notice",
+            "description": "You a can pay a security infringement final demand notice online, in person or by post.",
+            "category": "Western Australia Police Force",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 6,
+            "title": "Pay a security infringement notice",
+            "description": "How to pay fines relating to security online, in person or by post.",
+            "category": "Western Australia Police Force",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "slug2": "industry-assistance-schemes",
+        "title": "Industry assistance schemes",
+        "description": "Supporting industry growth, investment opportunities and encouraging innovation.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Access support to develop innovative location based solutions",
+            "description": "SPUR is your gateway to a wide-range of location and government data via the Shared Location Information Platform (SLIP) and the Data WA open data portal.",
+            "category": "Landgate",
+            "serviceintention": "info"
+          },
+          {
+            "id": 2,
+            "title": "Apply for a grant to develop innovative location based solutions",
+            "description": "SPURonWA grants are available to Western Australian start-ups, businesses and individuals working on innovative location-based products or services.",
+            "category": "Landgate",
+            "serviceintention": "info"
+          },
+          {
+            "id": 3,
+            "title": "Apply for the Primary Industries Workers Regional Travel and Accommodation Support Scheme",
+            "description": "This financial support scheme will provide targeted assistance to farming, fisheries and food processing businesses in regional areas experiencing labour shortages as a result of the COVID-19 pandemic.",
+            "category": "Department of Primary Industries and Regional Development",
+            "serviceintention": "info"
+          },
+          {
+            "id": 4,
+            "title": "Apply for WA Innovator of the Year Awards",
+            "description": "The WA Innovator of the Year program has showcased innovative and entrepreneurial individuals, businesses and creative minds since 2006.",
+            "category": "Department of Jobs, Tourism, Science and Innovation",
+            "serviceintention": "info"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "slug2": "industry-development",
+        "title": "Industry development",
+        "description": "Industry development opportunities, regulations, licensing for controlled activities, and reporting workplace injuries or diseases.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Buy native and tree seeds from the Forest Products Commission",
+            "description": "Complete an order form for seed to regenerate native forest and establish plantations.",
+            "category": "Forest Products Commission",
+            "serviceintention": "info"
+          },
+          {
+            "id": 2,
+            "title": "Contracts and tenders: Forest Products Commission",
+            "description": "A core responsibility of the Forest Products Commission (FPC) is the harvesting of forest products from the State's plantations, native forests and woodlands, and the selling of those products to sawmillers and other timber processors.",
+            "category": "Forest Products Commission",
+            "serviceintention": "info"
+          },
+          {
+            "id": 3,
+            "title": "Find a timber or firewood supplier",
+            "description": "The Forest Products Commission sells sustainably managed timber to a range of customers.",
+            "category": "Forest Products Commission",
+            "serviceintention": "info"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "slug2": "insurance",
+        "title": "Insurance",
+        "description": "Schemes that help provide protection against the risk of loss or harm.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Apply for a traffic infringement notice record",
+            "description": "Get a record of your traffic infringements over the past 10 years.",
+            "category": "Western Australia Police Force",
+            "serviceintention": "info"
+          },
+          {
+            "id": 2,
+            "title": "Apply for passenger transport vehicle authorisation",
+            "description": "How to get your vehicle approved for transporting passengers for hire or reward.",
+            "category": "Department of Transport",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Buy a temporary movement permit",
+            "description": "If you have an unlicensed vehicle that needs to be moved you must apply for a temporary movement permit.",
+            "category": "Department of Transport",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "How do I book a vehicle inspection?",
+            "description": "Find out how to arrange a vehicle inspection in both metropolitan and regional areas.",
+            "category": "Department of Transport",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "slug2": "professional-accreditation",
+        "title": "Professional accreditation",
+        "description": "Certification processes and standards for trades people or other service providers.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Find a licensed electrician, gas fitter or plumber",
+            "description": "Building and Energy are responsible for licensing electricians, gas fitters and plumbers and provide an online search function for you to check if your tradesperson is licensed.",
+            "category": "Department of Mines, Industry Regulation and Safety",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Find a registered building service provider",
+            "description": "Registration ensures contractors have the skills, experience and financial capacity to deliver quality building services.",
+            "category": "Department of Mines, Industry Regulation and Safety",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Pay your teacher registration fees",
+            "description": "Information about fees due and payable to the Teacher Registration Board of Western Australia.",
+            "category": "Teacher Registration Board of Western Australia",
+            "serviceintention": "info"
+          },
+          {
+            "id": 4,
+            "title": "Register as a teacher in Western Australia",
+            "description": "Registration is a requirement to teach in Western Australian educational venues.",
+            "category": "Teacher Registration Board of Western Australia",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "slug2": "small-business-services",
+        "title": "Small business services",
+        "description": "Advice and support for the start-up and running of small businesses.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Book a small business workshop",
+            "description": "Low cost workshops to help small business owners build their entrepreneurial skills. 98% of attendees would recommend our workshops to others.",
+            "category": "Small Business Development Corporation",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Business tools and templates",
+            "description": "Customisable, easy to use tools to meet a variety of business needs, including cash flow forecast, breakeven analysis and how to write a letter of demand.",
+            "category": "Small Business Development Corporation",
+            "serviceintention": "info"
+          },
+          {
+            "id": 3,
+            "title": "Sign up for small business news",
+            "description": "Our free monthly e-news brings you all the latest from the Small Business Development Corporation (SBDC) and the small business sector.",
+            "category": "Small Business Development Corporation",
+            "serviceintention": "info"
+          },
+          {
+            "id": 4,
+            "title": "Small business advisory services",
+            "description": "We provide free and confidential business advice to help existing and aspiring small business owners in Western Australia.",
+            "category": "Small Business Development Corporation",
+            "serviceintention": "info"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "communications",
+    "title": "Communications",
+    "description": "Communication services for the community including State publication services.",
+    "subcategories": [
+      {
+        "id": 1,
+        "slug2": "electronic-commerce",
+        "title": "Electronic commerce",
+        "description": "Promoting and supporting improvements to information and communications technologies to help businesses.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Apply to modify a vehicle",
+            "description": "If you are planning to modify a vehicle, you may need to pay a fee.",
+            "category": "Department of Transport",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Book a Transwa coach or train journey",
+            "description": "Make a booking online for Transwa coach or train services to regional parts of WA.",
+            "category": "Public Transport Authority",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Change your address with the Department of Transport",
+            "description": "If you have changed your address you need to let Driver and Vehicle Services know within 21 days.",
+            "category": "Department of Transport",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Pay a Department of Mines, Industry Regulation and Safety account",
+            "description": "How to make payments online for the departments Building and Energy, Consumer Protection and WorkSafe divisions.",
+            "category": "Department of Mines, Industry Regulation and Safety",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "slug2": "publishing",
+        "title": "Publishing",
+        "description": "Legislation, public sector news and open data.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Discover WA Public Sector Data",
+            "description": "Data WA provides an easy way to find, access, and reuse datasets from the Western Australian Government.",
+            "category": "Landgate",
+            "serviceintention": "info"
+          },
+          {
+            "id": 2,
+            "title": "iThink (WA Public Sector)",
+            "description": "A Western Australian public sector online ideas community",
+            "category": "Public Sector Commission",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Keep in touch with what's happening at the Department of Planning, Lands and Heritage",
+            "description": "Sign up to choose which Department of Planning, Lands and Heritage (DPLH) subscriptions you'd like to follow.",
+            "category": "Department of Planning, Lands and Heritage",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Publish information on the open data website",
+            "description": "Set-up an account to publish data, and data links, through data.wa.gov.au - the Western Australian open data service.",
+            "category": "Landgate",
+            "serviceintention": "apply"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "community-services",
+    "title": "Community services",
+    "description": "Support and assistance for the community including managing emergencies, public housing, welfare, and financial support.",
+    "subcategories": [
+      {
+        "id": 1,
+        "slug2": "accommodation-services",
+        "title": "Accommodation services",
+        "description": "Housing and accommodation for defence personnel and people who are in need.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Apply for financial assistance for housing",
+            "description": "A range of home ownership products are offered through Keystart Home Loans.",
+            "category": "Department of Communities",
+            "serviceintention": "info"
+          },
+          {
+            "id": 2,
+            "title": "Boorloo Bidee Mia",
+            "description": "Located in the Perth CBD, Boorloo Bidee Mia is a supported accommodation service for rough sleepers.",
+            "category": "Department of Communities",
+            "serviceintention": "info"
+          },
+          {
+            "id": 3,
+            "title": "Housing Authority online bill payment",
+            "description": "Housing tenancy clients can pay rent and related bills online. ",
+            "category": "Department of Communities",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Housing Authority online maintenance request form",
+            "description": "The Housing Authority endeavours to respond to maintenance issues as soon as possible.",
+            "category": "Department of Communities",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "slug2": "community-support",
+        "title": "Community support",
+        "description": "Supporting family units by providing assistance surrounding adoption, aged care, child care, child and youth support, defence community support, family reunions and veterans support.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Adoptions Services",
+            "description": "Information about adoption in Western Australia, what it means to be an adoptive parent and how to apply.",
+            "category": "Department of Communities",
+            "serviceintention": "info"
+          },
+          {
+            "id": 2,
+            "title": "Apply for a Community Stewardship Grant",
+            "description": "These grants support community-based projects that serve to protect and restore the local environment.",
+            "category": "Department of Primary Industries and Regional Development",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Apply for a passenger transport driver authorisation",
+            "description": "An annual passenger transport driver authorisation allows you to drive a vehicle for hire or reward.",
+            "category": "Department of Transport",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Apply for a photo card",
+            "description": "WA residents aged 16 and over can apply for a card that helps them prove their identity without a drivers licence or passport.",
+            "category": "Department of Transport",
+            "serviceintention": "info"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "slug2": "counselling-services",
+        "title": "Counselling services",
+        "description": "Treatment and support for individuals, families and community groups.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Child Witness Service",
+            "description": "Is a voluntary and free service available to children under 18 years of age who are to give evidence to a court.",
+            "category": "Department of Justice",
+            "serviceintention": "info"
+          },
+          {
+            "id": 2,
+            "title": "Court Counselling and Support Services",
+            "description": "The Department of Justice, Court and Tribunal division provides counselling and support services to court clients.",
+            "category": "Department of Justice",
+            "serviceintention": "info"
+          },
+          {
+            "id": 3,
+            "title": "Family and domestic violence support and advice",
+            "description": "A list of crisis support helplines for those experiencing family and domestic violence.",
+            "category": "Department of Communities",
+            "serviceintention": "info"
+          },
+          {
+            "id": 4,
+            "title": "Family Court Counselling and Consultancy Service",
+            "description": "Provides assessments and advice to families and judiciary of the Family Court of WA in relation to parenting matters.",
+            "category": "Department of Justice",
+            "serviceintention": "info"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "slug2": "emergency-services",
+        "title": "Emergency services",
+        "description": "Providing urgent assistance in time of crisis, including ambulance and firefighting services and coordination of government and community-based emergency services within a region.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Access the Fire and Emergency Services Volunteer Hub",
+            "description": "The Department of Fire and Emergency Services (DFES) Volunteer Hub provides resources, training and information to support emergency services volunteers.",
+            "category": "Department of Fire and Emergency Services",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Apply to waive a false fire alarm fee",
+            "description": "If you believe you have been incorrectly charged a fee for an attendance to a false fire alarm you can apply to have the fee waived.",
+            "category": "Department of Fire and Emergency Services",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Check bushfire location information in MyFireWatch",
+            "description": "MyFireWatch provides bushfire location information in a quickly accessible form, designed for general public use.",
+            "category": "Landgate",
+            "serviceintention": "info"
+          },
+          {
+            "id": 4,
+            "title": "Pay your false fire alarm fee invoice",
+            "description": "If an invoice has been issued for a False Fire Alarm Fee payment can be made online using BPOINT.",
+            "category": "Department of Fire and Emergency Services",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "slug2": "grants-and-subsidies",
+        "title": "Grants and subsidies",
+        "description": "Financial help and assistance for those in need, including eligibility criteria and entitlements for ongoing and one-off payments rates and subsidies.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Apply for a Community Stewardship Grant",
+            "description": "These grants support community-based projects that serve to protect and restore the local environment.",
+            "category": "Department of Primary Industries and Regional Development",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Apply for a free or virtual heritage plaque",
+            "description": "Apply for a free plaque or a virtual plaque promoting the heritage of your property.",
+            "category": "Department of Planning, Lands and Heritage",
+            "serviceintention": "info"
+          },
+          {
+            "id": 3,
+            "title": "Apply for a grant to preserve, promote and protect Aboriginal sites",
+            "description": "The program offers financial support to Aboriginal not-for-profit organisations to undertake projects that protect and preserve registered Aboriginal sites.",
+            "category": "Department of Planning, Lands and Heritage",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Apply for a household electricity credit",
+            "description": "Apply for a $600 payment to go towards your household electricity costs if you are not billed directly by Synergy or Horizon Power or will not receive the credit through the Energy Concession Extension Scheme.",
+            "category": "Department of Finance",
+            "serviceintention": "info"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "slug2": "natural-disasters",
+        "title": "Natural disasters",
+        "description": "Help and support during emergencies caused by floods, droughts, cyclones or major bushfires or other natural disasters.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Apply for a Community Stewardship Grant",
+            "description": "These grants support community-based projects that serve to protect and restore the local environment.",
+            "category": "Department of Primary Industries and Regional Development",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Tropical Cyclone Seroja primary industries response",
+            "description": "We are assisting Western Australian primary industries affected by the impact of Tropical Cyclone Seroja, as part of a whole of government response to the severe weather event.",
+            "category": "Department of Primary Industries and Regional Development",
+            "serviceintention": "info"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "slug2": "rural-community-development",
+        "title": "Rural community development",
+        "description": "Improving rural access to government services, local business partnerships and support for community projects.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Apply for a Community Stewardship Grant",
+            "description": "These grants support community-based projects that serve to protect and restore the local environment.",
+            "category": "Department of Primary Industries and Regional Development",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Apply for funding for a regional event",
+            "description": "Our Regional Events Scheme (RES), supported by Royalties for Regions, is an annual funding round for smaller, developing regional events across the state.",
+            "category": "Department of Jobs, Tourism, Science and Innovation",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Find your local Community Resource Centre",
+            "description": "Locally owned and operated, community resource centres (CRCs) provide a wide array of information and community-based services to local people, businesses and visitors.",
+            "category": "Department of Primary Industries and Regional Development",
+            "serviceintention": "info"
+          },
+          {
+            "id": 4,
+            "title": "How to apply for a country age pension fuel card",
+            "description": "Find out how eligible pensioners can receive up to $575 a year towards the cost of fuel or taxi travel.",
+            "category": "Department of Primary Industries and Regional Development",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "slug2": "social-justice-and-equity",
+        "title": "Social justice and equity",
+        "description": "Supporting the fair treatment of all people regardless of gender, race, colour, ethnicity, age, marital or parental status, sexual preference, disability or religious belief.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Apply for a drivers licence refund",
+            "description": "You can apply for a refund if you voluntarily give up your licence, your concession type changes, someone dies, you cancel your driving test or there is a payment error.",
+            "category": "Department of Transport",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Apply for a passenger transport driver authorisation",
+            "description": "An annual passenger transport driver authorisation allows you to drive a vehicle for hire or reward.",
+            "category": "Department of Transport",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Apply for a SmartRider card",
+            "description": "SmartRider is a reusable card that allows for simple and easy travel on Transperth services.",
+            "category": "Public Transport Authority",
+            "serviceintention": "info"
+          },
+          {
+            "id": 4,
+            "title": "Apply for a vehicle fee refund",
+            "description": "You can apply for refunds on your plate application, temporary movement permit, vehicle examination and vehicle licence fees, returned plates, concessions and payment errors.",
+            "category": "Department of Transport",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "slug2": "transport-access-schemes",
+        "title": "Transport access schemes",
+        "description": "Providing transport services to those in need.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Apply for a passenger transport driver authorisation",
+            "description": "An annual passenger transport driver authorisation allows you to drive a vehicle for hire or reward.",
+            "category": "Department of Transport",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Apply for a SmartRider card",
+            "description": "SmartRider is a reusable card that allows for simple and easy travel on Transperth services.",
+            "category": "Public Transport Authority",
+            "serviceintention": "info"
+          },
+          {
+            "id": 3,
+            "title": "Apply for a WA Seniors Card",
+            "description": "You can apply for a WA Seniors Card online or by downloading and completing a form.",
+            "category": "Department of Communities",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Apply for transport assistance for your child",
+            "description": "You can apply for school bus services to help transport your child to and from school.",
+            "category": "Public Transport Authority",
+            "serviceintention": "apply"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "cultural-affairs",
+    "title": "Cultural affairs",
+    "description": "Art galleries, museums, libraries and help to grow or develop cultural industries including grants and scholarships.",
+    "subcategories": [
+      {
+        "id": 1,
+        "slug2": "arts-development",
+        "title": "Arts development",
+        "description": "Arts programs and venues for the community.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Apply for a Community Stewardship Grant",
+            "description": "These grants support community-based projects that serve to protect and restore the local environment.",
+            "category": "Department of Primary Industries and Regional Development",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Cultural Infrastructure Toolkit",
+            "description": "The Cultural Infrastructure Toolkit supports the implementation of the WA Cultural Infrastructure Framework 2030+.",
+            "category": "Department of Local Government, Sport and Cultural Industries",
+            "serviceintention": "info"
+          },
+          {
+            "id": 3,
+            "title": "Culture and arts research hub",
+            "description": "Presents information about recent culture and the arts research projects, visualisations of key statistics and links to summary reports and publications about culture and the arts in Western Australia.",
+            "category": "Department of Local Government, Sport and Cultural Industries",
+            "serviceintention": "info"
+          },
+          {
+            "id": 4,
+            "title": "Culture and the arts",
+            "description": "Promoting participation and achievement in culture and arts to support growth of the cultural industries.",
+            "category": "Department of Local Government, Sport and Cultural Industries",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 5,
+            "title": "Find a show at a Perth Theatre Trust venue",
+            "description": "Search for shows across Perth Theatre Trust venues.",
+            "category": "Perth Theatre Trust",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 6,
+            "title": "Regional funding",
+            "description": "Funding for regional Western Australia.",
+            "category": "Department of Local Government, Sport and Cultural Industries",
+            "serviceintention": "info"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "slug2": "collection-access",
+        "title": "Collection access",
+        "description": "Where to find resources and how to use them.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Access the Storylines Aboriginal history database",
+            "description": "Engage with Aboriginal stories, language, perspectives and history.",
+            "category": "State Library of Western Australia",
+            "serviceintention": "info"
+          },
+          {
+            "id": 2,
+            "title": "Become a State Library member",
+            "description": "Membership of the State Library of Western Australia is free for all residents of Western Australia.",
+            "category": "State Library of Western Australia",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Culture WA portal",
+            "description": "Treasures of Western Australia digitised and accessible to all.",
+            "category": "Department of Local Government, Sport and Cultural Industries",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Find a State Government agency library",
+            "description": "The Western Australian Government Library Directory lists all the Government department libraries.",
+            "category": "Department of Jobs, Tourism, Science and Innovation",
+            "serviceintention": "info"
+          },
+          {
+            "id": 5,
+            "title": "Find library books and electronic resources",
+            "description": "Use the State Library catalogue to request and reserve items from our collection, book computers and login to a selection of eResources from home.",
+            "category": "State Library of Western Australia",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "slug2": "collection-promotion",
+        "title": "Collection promotion",
+        "description": "Browse, book or buy tickets and merchandise online.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Book a place or buy tickets for an Art Gallery of WA event",
+            "description": "Browse what's on and book an event at the Art Gallery of WA.",
+            "category": "Art Gallery of Western Australia",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 2,
+            "title": "Buy Australian craft and designs from Aspects of Kings Park",
+            "description": "Aspects' online shop is where you will find some of our most popular and readily transported products available for purchase.",
+            "category": "Department of Biodiversity, Conservation and Attractions",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 3,
+            "title": "Buy from the Western Australian Museum online shop",
+            "description": "The Western Australian Museum shop stocks all of the Museum's publications, as well as a wide variety of books, toys, jewellery, gifts and other merchandise.",
+            "category": "Western Australian Museum",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Buy Perth Mint products",
+            "description": "Browse The Perth Mint collectable coins and buy from our secure online shop.",
+            "category": "The Perth Mint",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 5,
+            "title": "Buy Western Australian Museum prints",
+            "description": "Transform any space with a selection of unique, made-to-order prints and special gifts from our collection.",
+            "category": "Western Australian Museum",
+            "serviceintention": "apply"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "slug2": "cultural-awards-and-scholarships",
+        "title": "Cultural awards and scholarships",
+        "description": "Grants, scholarships and awards for achievements in artistic, literary or heritage-related activities.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Apply for a free or virtual heritage plaque",
+            "description": "Apply for a free plaque or a virtual plaque promoting the heritage of your property.",
+            "category": "Department of Planning, Lands and Heritage",
+            "serviceintention": "info"
+          },
+          {
+            "id": 2,
+            "title": "Apply for heritage sponsorship for a project or event",
+            "description": "Funding for heritage-related events and activities held across WA.",
+            "category": "Department of Planning, Lands and Heritage",
+            "serviceintention": "info"
+          },
+          {
+            "id": 3,
+            "title": "Culture and arts funding",
+            "description": "Find a grant that supports the development and delivery of culture and the arts or supports the creative industries in Western Australia.",
+            "category": "Department of Local Government, Sport and Cultural Industries",
+            "serviceintention": "apply"
+          },
+          {
+            "id": 4,
+            "title": "Heritage grants directory",
+            "description": "A directory of funding opportunities for owners and managers of heritage places-both historic and Aboriginal heritage.",
+            "category": "Department of Planning, Lands and Heritage",
+            "serviceintention": "info"
+          },
+          {
+            "id": 5,
+            "title": "Office of Multicultural Interests (OMI)",
+            "description": "Through the development and implementation of policies, programs and services, the OMI aims to achieve the full potential of multiculturalism.",
+            "category": "Department of Local Government, Sport and Cultural Industries",
+            "serviceintention": "info"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "slug2": "cultural-festivals",
+        "title": "Cultural festivals",
+        "description": "Festivals, performances and joint community events.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Office of Multicultural Interests (OMI)",
+            "description": "Through the development and implementation of policies, programs and services, the OMI aims to achieve the full potential of multiculturalism.",
+            "category": "Department of Local Government, Sport and Cultural Industries",
+            "serviceintention": "info"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "slug2": "multicultural-heritage-promotion",
+        "title": "Multicultural heritage promotion",
+        "description": "Community events and activities promoting Western Australia's cultural diversity.",
+        "serviceinfo": [
+          {
+            "id": 1,
+            "title": "Multicultural funding",
+            "description": "Funding for multicultural experiences and groups to enliven the community.",
+            "category": "Department of Local Government, Sport and Cultural Industries",
+            "serviceintention": "info"
+          },
+          {
+            "id": 2,
+            "title": "Office of Multicultural Interests (OMI)",
+            "description": "Through the development and implementation of policies, programs and services, the OMI aims to achieve the full potential of multiculturalism.",
+            "category": "Department of Local Government, Sport and Cultural Industries",
+            "serviceintention": "info"
+          }
+        ]
+      }
+    ]
+  }
+]

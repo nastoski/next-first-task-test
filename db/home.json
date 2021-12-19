@@ -1,0 +1,40 @@
+[
+  {
+    "id": "1",
+    "image": "/images/home_plan.jpg",
+    "slug": "https://www.wa.gov.au/organisation/covid-communications/covid-19-coronavirus-was-safe-transition-plan",
+    "title": "Get ready for WA's transition",
+    "description": "WA to proceed with Safe Transition Plan from February 5, 2022",
+    "contents": "<Hyperlink>Travel and testing requirements</Hyperlink><Hyperlink>Public health and social measures</Hyperlink><Hyperlink>Regions that do not reach an 80 per cent vaccination rate</Hyperlink><Hyperlink>Proof of vaccination</Hyperlink><Paragraph>Western Australia will embark on its Safe Transition Plan as announced last month, to safely ease its hard border controls in line with a 90 per cent vaccination rate, from 12:01am on Saturday 5 February, 2022</Paragraph><Paragraph>The locked-in transition date is based on the latest projections for when WA is at its target rate of 90 per cent double dose vaccination for eligible Western Australians aged 12 years and above.</Paragraph><h2>Travel and testing requirements</h2><Paragraph>To safely enable quarantine-free travel into the State, new testing requirements for arrivals will be introduced to assist with the safe transition of COVID-19 in the WA community.</Paragraph>"
+  },
+  {
+    "id": "2",
+    "image": "/images/COVID_19.jpg",
+    "slug": "https://www.wa.gov.au/government/covid-19-coronavirus",
+    "title": "COVID-19 Information"
+  },
+  {
+    "id": "3",
+    "image": "/images/ICC_Digital.jpg",
+    "slug": "https://www.wa.gov.au/organisation/covid-communications/covid-19-coronavirus-controlled-border",
+    "title": "COVID-19: Controlled border"
+  },
+  {
+    "id": "4",
+    "image": "/images/Proof_of_vac.jpg",
+    "slug": "https://www.wa.gov.au/organisation/covid-communications/covid-19-coronavirus-getting-proof-of-covid-19-vaccinations",
+    "title": "Proof of COVID-19 vaccinations"
+  },
+  {
+    "id": "5",
+    "image": "/images/vaccine_workers.jpg",
+    "slug": "https://www.wa.gov.au/organisation/covid-communications/covid-19-coronavirus-mandatory-covid-19-vaccination-information",
+    "title": "COVID-19 Mandatory vaccination information"
+  },
+  {
+    "id": "6",
+    "image": "",
+    "slug": "https://www.wa.gov.au/organisation/department-of-communities/16-days-wa",
+    "title": "16 Days in WA: Stop the violence"
+  }
+]

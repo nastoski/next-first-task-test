@@ -1,0 +1,31 @@
+.notfound__main {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+.notfound__main__inner {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1340px;
+}
+.notfound__main__content ol {
+  line-height: 1.5rem;
+  display: block;
+  /* list-style-type: decimal; */
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.notfound__main__content a {
+  color: #4d4d4d;
+}
+.notfound__main__content a:hover {
+  color: #d14210;
+}
+.notfound__main__content li {
+  font-weight: 500;
+  transition: all ease 0.25s;
+  text-decoration: underline;
+}

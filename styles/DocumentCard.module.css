@@ -1,0 +1,33 @@
+.document {
+  padding: 0.5rem 0 0.5rem 0;
+  line-height: 2;
+}
+.document__icon {
+  display: flex;
+}
+.document__info {
+  margin-left: 1rem;
+}
+.document__info a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+.document__info a:hover {
+  color: #d14210;
+}
+.document__downloads {
+  display: flex;
+  flex-direction: column;
+}
+.document__downloads a {
+  color: #4d4d4d;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.25s ease;
+  text-decoration: underline;
+}
+.document__footer {
+  padding-top: 2rem;
+}

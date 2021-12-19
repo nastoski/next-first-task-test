@@ -1,0 +1,48 @@
+.main {
+  padding-bottom: 3rem;
+  padding-top: 2.5rem;
+}
+
+.main__top {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+.main__top__content {
+  display: flex;
+  align-items: center;
+}
+
+.main__form__item {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.main__form__item label {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.main__select__container {
+  margin-left: 1rem;
+}
+
+.accordion__content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+@media screen and (min-width: 1200px) {
+  .accordion__content {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .accordion__content {
+    width: 700px;
+  }
+}

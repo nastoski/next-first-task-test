@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto 0 auto;
+  padding-top: 3rem;
+  width: 1340px;
+}
+
+.container__main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.container__main_list {
+  display: flex;
+  flex-direction: row;
+}
+
+.list__serviceintention {
+  margin-right: 1rem;
+}
+
+.list__content {
+  padding-bottom: 3rem;
+}
+
+.list__content h2 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.list__content p {
+  margin-bottom: 1rem;
+  inline-size: 45rem;
+}
+
+.list__content a {
+  color: #4d4d4d;
+  font-size: 0.95rem;
+}
+
+.container__sidebar {
+  width: 28%;
+  margin-left: 5rem;
+  margin-bottom: 3rem;
+}
+
+.container__sidebar h4 {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.container__sidebar p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.container__sidebar button {
+  margin-top: 1rem;
+  font-weight: 500;
+}

@@ -1,116 +1,275 @@
-.container {
-  padding: 0 2rem;
+.hero__container {
+  background: #f5f5f5;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.searchbox__inner {
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
+.searchbox__heading {
+  background-image: url(/images/search_banner_bg.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: auto 80px;
+  margin-bottom: 0;
+  padding: 60px 0 0;
   text-align: center;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.searchbox__heading span {
+  color: #d14210;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.searchbox__heading_tagline {
+  padding-bottom: 30px;
+  text-align: center;
 }
 
-.grid {
+.searchbox__heading_tagline p {
+  font-size: 24px;
+}
+
+.searchbox__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 5rem;
+}
+
+.searchbox__container input {
+  height: 5rem;
+  border: 1px solid #585c62;
+  border-right: none;
+}
+
+.searchbox__container button {
+  margin-top: 10px !important;
+  position: relative;
+  align-items: center;
+  height: 5rem;
+  border: 1px solid #585c62;
+  border-left: none;
+}
+.searchbox__container button:hover {
+  background-color: white;
+  border: 1px solid #585c62;
+  border-left: none;
+}
+
+/* Main Section */
+
+.main__section {
+  padding-top: 2.5rem;
+}
+
+.main__section__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.main__section__box1 {
+  display: flex;
+  margin-right: 2.5rem;
+  justify-content: center;
+}
+
+.main__section__box1 img {
+  height: auto;
+  width: 606px;
+  vertical-align: middle;
+}
+
+.main__section__box2 {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__section__box2 li {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  padding-bottom: 2.5rem;
+  font-weight: 300;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
+.main__section__box2 img {
+  width: 146px;
+  height: auto;
+}
+
+.main__government__title a {
+  display: flex;
+  align-items: center;
+  color: #000;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  padding-top: 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.main__government__title_sm a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.14rem;
+  font-weight: 500;
+  margin-left: 1rem;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.main__government__title a:hover {
+  color: #d14210;
+  transition: 0.2s;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
+.main__government__description {
+  margin-top: 30px;
+  color: #4d4d4d;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.main__section__bottom {
+  border-top: 1px solid #4d4d4d;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
-@media (max-width: 600px) {
-  .grid {
+.main__government__titlebox a {
+  background-color: #d14210;
+  display: flex;
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 25px;
+  padding: 3.5rem;
+}
+
+.main__government__titlebox a:hover {
+  background-color: #000;
+  transition: ease 0.4s;
+}
+
+@media screen and (min-width: 1340px) {
+  .searchbox__inner {
+    max-width: 1340px;
+  }
+  .main__section__top {
+    max-width: 1340px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .searchbox__inner {
+    max-width: 1200px;
+  }
+  .main__section__top {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main__section__box1 {
+    display: flex;
+    margin-right: 1.5rem;
+    justify-content: center;
+  }
+
+  .main__section__box1 img {
+    height: auto;
+    width: 424px;
+  }
+
+  .main__section__box1 h3 {
+    padding-top: 1rem;
+  }
+
+  .main__section__bottom {
+    border-top: 1px solid #4d4d4d;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
+  }
+}
+@media screen and (min-width: 945px) {
+  .searchbox__heading {
+    background-position: bottom left;
+    background-size: contain;
+    font-size: 3.25rem;
+    font-weight: 900;
+    margin-bottom: 0;
+    padding: 40px 0 20px;
+  }
+  .searchbox__heading_tagline {
+    padding-bottom: 50px;
+  }
+  .search__below {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .searchbox__container {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  .searchbox__heading {
+    font-size: 2.75rem;
+    margin: 1rem 0 0;
+    text-align: left;
+  }
+  .searchbox__inner {
+    max-width: 945px;
+  }
+  .main__section__top {
+    max-width: 945px;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main__section__box1 img {
+    width: 100%;
+    height: auto;
+    vertical-align: center;
+  }
+
+  .main__section__box2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    width: 100%;
+  }
+
+  .main__section__box2 img {
+    display: none;
+  }
+
+  .main__section__box2 li {
+    border-bottom: 1px solid #c3cddb;
+    padding-bottom: 1rem;
+  }
+
+  .main__government__title_sm {
+    margin-top: 1rem;
   }
 }
