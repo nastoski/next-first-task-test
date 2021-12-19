@@ -29,6 +29,7 @@ export default function GovernmentDetails({ gov }) {
           <div className={styles.main__container_cards}>
             {gov.subcategories.map((government) => (
               <InfoCard
+                  key={government.title}
                 description={government.description}
                 imageUrl={government.image}
                 title={government.title}
@@ -51,7 +52,7 @@ export default function GovernmentDetails({ gov }) {
             <div className={styles.main__publications}>
               {gov.publications.map((pub) => (
                 <DocumentCard
-                  index={pub.id}
+                  key={pub.id}
                   title={pub.title}
                   docxDescription={pub.docx_description}
                   pdfDescription={pub.pdf_description}

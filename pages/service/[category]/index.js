@@ -71,7 +71,7 @@ export default function ServiceDetail({ service }) {
         <div className={styles.sub_main}>
           {service.subcategories.map((serv) => (
             <ServiceItem
-              index={serv.id}
+              key={serv.id}
               slug={router.query.category}
               slug2={serv.slug2}
               title={serv.title}

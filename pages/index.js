@@ -48,7 +48,7 @@ export default function HomePage({ homeList, homeLists, banner }) {
         <div className={styles.main__section__top}>
           <div className={styles.main__section__box1}>
             <div className={styles.main__government__media}>
-              <Image src={homeList.image} width={606} height={303} />
+              <Image src={homeList.image} width={606} height={303} alt="" />
               <h1 className={styles.main__government__title}>
                 <Link href={homeList.slug}>
                   <a>
@@ -65,7 +65,7 @@ export default function HomePage({ homeList, homeLists, banner }) {
           <div className={styles.main__section__box2}>
             {homeLists.map((list) => (
               <li key={list.id}>
-                <Image src={list.image} width={146} height={84} />
+                <Image src={list.image} width={146} height={84} alt="" />
                 <h3 className={styles.main__government__title_sm}>
                   <Link href={list.slug}>
                     <a>

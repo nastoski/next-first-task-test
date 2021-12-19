@@ -72,16 +72,16 @@ export default function Layout({ title, description, children }) {
         description="The Government of Western Australia acknowledges the traditional custodians throughout Western Australia and their continuing connection to the land, waters and community. We pay our respects to all members of the Aboriginal communities and their cultures; and to Elders both past and present."
         header="Acknowledgement of Country"
         links={[
-          <a href="#" rel="noopener noreferrer">
+          <a key='1' href="#" rel="noopener noreferrer">
             Copyright
           </a>,
-          <a href="#" rel="noopener noreferrer">
+          <a key='2' href="#" rel="noopener noreferrer">
             Disclaimer
           </a>,
-          <a href="#" rel="noopener noreferrer">
+          <a key='3' href="#" rel="noopener noreferrer">
             Privacy
           </a>,
-          <a href="#" rel="noopener noreferrer">
+          <a key='4' href="#" rel="noopener noreferrer">
             About this website
           </a>,
         ]}

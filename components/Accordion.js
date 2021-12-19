@@ -3,7 +3,7 @@ import { Icon } from "dpc-components-library";
 import styles from "@/styles/Accordion.module.css";
 
 export default function Accordion({
-  id,
+  key,
   title,
   about,
   address,
@@ -34,7 +34,7 @@ export default function Accordion({
   ];
 
   return (
-    <div key={id} className={styles.accordion__main}>
+    <div key={key} className={styles.accordion__main}>
       <div className={styles.accordion__button} onClick={toggle} type="button">
         <p className={styles.accordion__title}>{title}</p>
         <p className={styles.accordion__showmore}>

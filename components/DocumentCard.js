@@ -3,7 +3,7 @@ import styles from "@/styles/DocumentCard.module.css";
 import { FaFileAlt } from "react-icons/fa";
 
 export default function DocumentCard({
-  index,
+  key,
   title,
   docxDescription,
   pdfDescription,
@@ -11,7 +11,7 @@ export default function DocumentCard({
   pdf,
 }) {
   return (
-    <div key={index} className={styles.document_container}>
+    <div key={key} className={styles.document_container}>
       <div className={styles.document}>
         <div className={styles.document__icon}>
           <FaFileAlt color="gray" size={55} />

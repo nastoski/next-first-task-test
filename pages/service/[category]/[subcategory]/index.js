@@ -27,9 +27,9 @@ export default function ServiceInfoPage({ subcategories }) {
             <div key={serv.title} className={styles.container__main_list}>
               <div className={styles.list__serviceintention}>
                 {serv.serviceintention === "apply" ? (
-                  <Image src="/images/apply.png" width={70} height={78} />
+                  <Image src="/images/apply.png" width={70} height={78} alt="" />
                 ) : (
-                  <Image src="/images/info.png" width={70} height={78} />
+                  <Image src="/images/info.png" width={70} height={78} alt="" />
                 )}
               </div>
               <div className={styles.list__content}>

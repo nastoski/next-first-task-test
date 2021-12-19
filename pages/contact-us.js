@@ -62,9 +62,9 @@ export default function ContactPage() {
         <Paragraph>
           Issues raised are kept confidential and discussed only with the people
           who need to be involved. Any information submitted using this form
-          will be used in line with the website's privacy statement.
+          will be used in line with the websites privacy statement.
         </Paragraph>
-        <Paragraph>Don't use this form to:</Paragraph>
+        <Paragraph>Dont use this form to:</Paragraph>
         <ul>
           <li>report any matter you consider to be urgent, or</li>
           <li>for any request for information or advice.</li>

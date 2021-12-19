@@ -28,7 +28,7 @@ const ServicePage = ({ services }) => {
           {/*  */}
           {services.map((data) => (
             <ServiceItem
-              index={data.id}
+              key={data.id}
               slug={data.slug}
               title={data.title}
               description={data.description}

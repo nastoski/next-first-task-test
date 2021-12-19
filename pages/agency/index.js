@@ -42,7 +42,7 @@ export default function AgencyPage({ data }) {
         <div className={styles.accordion__content}>
           {data.map((content) => (
             <AccordionComponent
-              id={content.title}
+              key={content.title}
               title={content.title}
               about={content.about}
               address={content.address}

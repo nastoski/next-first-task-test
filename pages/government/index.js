@@ -27,9 +27,9 @@ export default function GovernmentPage() {
           <br />
         </p>
         <p>
-          While Western Australia's constitutional laws provide for{" "}
+          While Western Australias constitutional laws provide for{" "}
           <a href="#">the Governor to act as Head of State</a>, most of the
-          Governor's constitutional powers are exercised on advice from
+          Governors constitutional powers are exercised on advice from
           Government Ministers, principally the Premier.
         </p>
         <h2>Parliament</h2>
@@ -64,7 +64,7 @@ export default function GovernmentPage() {
         <h2>State finances</h2>
         <p>
           <a href="#">The State Budget</a> website includes both the current
-          budget and previous years' budget information and{" "}
+          budget and previous years budget information and{" "}
           <a href="#"> fact sheets on significant budget issues.</a>
         </p>
         <h2>Data</h2>
