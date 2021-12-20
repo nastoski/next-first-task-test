@@ -40,9 +40,9 @@ export default function AgencyPage({ data }) {
           </div>
         </div>
         <div className={styles.accordion__content}>
-          {data.map((content) => (
+          {data.map((content, index) => (
             <AccordionComponent
-              key={content.title}
+              key={index}
               title={content.title}
               about={content.about}
               address={content.address}
@@ -61,10 +61,11 @@ export default function AgencyPage({ data }) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch("http://localhost:3000/api/agency");
+  const res = await fetch(`${process.env.API_URL}/api/agency`);
   const agency = await res.json();
 
   return {
     props: { data: agency },
+    revalidate: 1,
   };
 }

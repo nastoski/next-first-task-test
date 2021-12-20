@@ -1,21 +1,15 @@
-import { useState } from "react";
 import HeroHeader from "@/components/HeroHeader";
 import Layout from "@/components/Layout";
 import styles from "@/styles/ServiceDetail.module.css";
-import { API_URL } from "config";
 import { useRouter } from "next/router";
 import ServiceItem from "@/components/ServiceItem";
 import { Icon } from "dpc-components-library";
 
 export default function ServiceDetail({ service }) {
-
-  const [servData, setServData] = useState([])
-
-
-
   const heroProps = {
     locate2: "Browse all information and services",
   };
+
 
   const router = useRouter();
 
@@ -23,13 +17,13 @@ export default function ServiceDetail({ service }) {
 
   const serviceInfoData = serviceInfo.map((data) => data.serviceinfo);
 
+  const servData = [];
 
-    serviceInfoData.forEach((data) => {
-      data.forEach((serv) => {
-        servData.push(serv)
-      });
+  serviceInfoData.forEach((data) => {
+    data.forEach((serv) => {
+      servData.push(serv);
     });
-
+  });
 
   return (
     <Layout
@@ -51,8 +45,8 @@ export default function ServiceDetail({ service }) {
             </div>
             <div className={styles.services_content}>
               {/*  */}
-              {servData.slice(3, 14).map((serv) => (
-                <div key={serv.title} className={styles.content_card}>
+              {servData.slice(3, 14).map((serv, index) => (
+                <div key={index} className={styles.content_card}>
                   <h2>
                     <a>{serv.title}</a>
                     <Icon icon="icon-chevron-right" size={15} />
@@ -69,9 +63,9 @@ export default function ServiceDetail({ service }) {
           <h1>{service.title} subcategories</h1>
         </div>
         <div className={styles.sub_main}>
-          {service.subcategories.map((serv) => (
+          {service.subcategories.map((serv, index) => (
             <ServiceItem
-              key={serv.id}
+              key={index}
               slug={router.query.category}
               slug2={serv.slug2}
               title={serv.title}
@@ -87,7 +81,7 @@ export default function ServiceDetail({ service }) {
 }
 
 export async function getStaticPaths() {
-  const res = await fetch(`${API_URL}/api/services`);
+  const res = await fetch(`${process.env.API_URL}/api/services`);
   const services = await res.json();
 
   const paths = services.map((serv) => ({
@@ -101,7 +95,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const res = await fetch(`${API_URL}/api/services/`);
+  const res = await fetch(`${process.env.API_URL}/api/services/`);
   const services = await res.json();
 
   const category = params?.category;

@@ -1,6 +1,5 @@
 import Layout from "@/components/Layout";
-import Image from 'next/image'
-import { API_URL } from "config";
+import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import {
@@ -10,7 +9,6 @@ import {
   Icon,
   Paragraph,
 } from "dpc-components-library";
-import Accordion from "@/components/Accordion";
 
 export default function HomePage({ homeList, homeLists, banner }) {
   return (
@@ -27,18 +25,18 @@ export default function HomePage({ homeList, homeLists, banner }) {
                 information and services.
               </Paragraph>
             </div>
-              <form name="Search" className={styles.searchbox__container}>
-                <Input
-                  label=""
-                  type="text"
-                  placeholder="I am searching for..."
-                  aria-label="Search"
-                  name="q"
-                />
-                <Button  outlined type="submit" size="large">
-                  <Icon size="30" icon="icon-search" />
-                </Button>
-              </form>
+            <form name="Search" className={styles.searchbox__container}>
+              <Input
+                label=""
+                type="text"
+                placeholder="I am searching for..."
+                aria-label="Search"
+                name="q"
+              />
+              <Button outlined type="submit" size="large">
+                <Icon size="30" icon="icon-search" />
+              </Button>
+            </form>
           </div>
         </div>
       </div>
@@ -63,8 +61,8 @@ export default function HomePage({ homeList, homeLists, banner }) {
             </div>
           </div>
           <div className={styles.main__section__box2}>
-            {homeLists.map((list) => (
-              <li key={list.id}>
+            {homeLists.map((list, index) => (
+              <li key={index}>
                 <Image src={list.image} width={146} height={84} alt="" />
                 <h3 className={styles.main__government__title_sm}>
                   <Link href={list.slug}>
@@ -92,7 +90,7 @@ export default function HomePage({ homeList, homeLists, banner }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch(`${API_URL}/api/home`);
+  const res = await fetch(`${process.env.API_URL}/api/home`);
   const data = await res.json();
 
   return {

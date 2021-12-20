@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 import { Button, Icon } from "dpc-components-library";
 
 export default function ServiceItem({
-  key,
   slug,
   slug2,
   title,
@@ -14,8 +13,10 @@ export default function ServiceItem({
 }) {
   const router = useRouter();
 
+  // console.log(router.pathname);
+
   return (
-    <div key={key} className={styles.column}>
+    <div className={styles.column}>
       <h2>
         <Link href={`/service/${slug}/${slug2}`}>
           <a>{title}</a>

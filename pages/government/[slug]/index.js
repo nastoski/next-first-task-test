@@ -3,14 +3,7 @@ import Link from "next/link";
 import HeroHeader from "@/components/HeroHeader";
 import Layout from "@/components/Layout";
 import styles from "@/styles/GovernmentDetails.module.css";
-import { API_URL } from "config";
-import {
-  InfoCard,
-  Paragraph,
-  Heading,
-  Button,
-  ServiceCard,
-} from "dpc-components-library";
+import { InfoCard, Paragraph, Heading, Button } from "dpc-components-library";
 
 export default function GovernmentDetails({ gov }) {
   return (
@@ -29,7 +22,7 @@ export default function GovernmentDetails({ gov }) {
           <div className={styles.main__container_cards}>
             {gov.subcategories.map((government) => (
               <InfoCard
-                  key={government.title}
+                key={government.title}
                 description={government.description}
                 imageUrl={government.image}
                 title={government.title}
@@ -50,9 +43,9 @@ export default function GovernmentDetails({ gov }) {
           <div className={styles.main__container_publications}>
             <Heading level={2}>Publications</Heading>
             <div className={styles.main__publications}>
-              {gov.publications.map((pub) => (
+              {gov.publications.map((pub, index) => (
                 <DocumentCard
-                  key={pub.id}
+                  key={index}
                   title={pub.title}
                   docxDescription={pub.docx_description}
                   pdfDescription={pub.pdf_description}
@@ -100,7 +93,7 @@ export default function GovernmentDetails({ gov }) {
 }
 
 export async function getServerSideProps({ query: { slug } }) {
-  const res = await fetch(`${API_URL}/api/government/${slug}`);
+  const res = await fetch(`${process.env.API_URL}/api/government/${slug}`);
   const government = await res.json();
 
   return {

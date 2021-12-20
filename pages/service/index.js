@@ -3,7 +3,6 @@ import Layout from "@/components/Layout";
 import HeroHeader from "@/components/HeroHeader";
 import styles from "@/styles/Services.module.css";
 import ServiceItem from "@/components/ServiceItem";
-import { API_URL } from "config";
 
 const ServicePage = ({ services }) => {
   const HeroProps = {
@@ -26,9 +25,9 @@ const ServicePage = ({ services }) => {
       <div className={styles.main}>
         <div className={styles.card}>
           {/*  */}
-          {services.map((data) => (
+          {services.map((data, index) => (
             <ServiceItem
-              key={data.id}
+              key={index}
               slug={data.slug}
               title={data.title}
               description={data.description}
@@ -45,7 +44,7 @@ const ServicePage = ({ services }) => {
 export default ServicePage;
 
 export async function getStaticProps() {
-  const res = await fetch(`${API_URL}/api/services`);
+  const res = await fetch(`${process.env.API_URL}/api/services`);
   const services = await res.json();
 
   return {

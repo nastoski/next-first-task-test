@@ -1,7 +1,6 @@
 import HeroHeader from "@/components/HeroHeader";
-import Image from 'next/image'
+import Image from "next/image";
 import Layout from "@/components/Layout";
-import { API_URL } from "config";
 import styles from "@/styles/ServiceInfoPage.module.css";
 import { Hyperlink, Paragraph, Icon, Button } from "dpc-components-library";
 
@@ -23,11 +22,16 @@ export default function ServiceInfoPage({ subcategories }) {
       <div className={styles.container}>
         <div className={styles.container__main}>
           {/* Services Info List */}
-          {subcategories.serviceinfo.map((serv) => (
-            <div key={serv.title} className={styles.container__main_list}>
+          {subcategories.serviceinfo.map((serv, index) => (
+            <div key={index} className={styles.container__main_list}>
               <div className={styles.list__serviceintention}>
                 {serv.serviceintention === "apply" ? (
-                  <Image src="/images/apply.png" width={70} height={78} alt="" />
+                  <Image
+                    src="/images/apply.png"
+                    width={70}
+                    height={78}
+                    alt=""
+                  />
                 ) : (
                   <Image src="/images/info.png" width={70} height={78} alt="" />
                 )}
@@ -66,7 +70,7 @@ export default function ServiceInfoPage({ subcategories }) {
 export async function getStaticPaths() {
   const paths = [];
 
-  const res = await fetch(`${API_URL}/api/services`);
+  const res = await fetch(`${process.env.API_URL}/api/services`);
   const services = await res.json();
 
   const categories = services.map((serv) => serv.slug);
@@ -93,7 +97,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const res = await fetch(`${API_URL}/api/services`);
+  const res = await fetch(`${process.env.API_URL}/api/services`);
   const services = await res.json();
 
   const category = params?.category;
@@ -103,8 +107,8 @@ export async function getStaticProps({ params }) {
   const item = categoryObj.subcategories.find(
     (data) => data.slug2 === subcategory
   );
-  console.log(item);
   return {
     props: { subcategories: item },
+    revalidate: 1,
   };
 }
