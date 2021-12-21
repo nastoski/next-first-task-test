@@ -1,3 +1,4 @@
+import homeDB from "db/home";
 import Layout from "@/components/Layout";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
@@ -90,8 +91,7 @@ export default function HomePage({ homeList, homeLists, banner }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch(`${process.env.API_URL}/api/home`);
-  const data = await res.json();
+  const data = homeDB;
 
   return {
     props: {

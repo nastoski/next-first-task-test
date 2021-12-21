@@ -1,4 +1,5 @@
 import HeroHeader from "@/components/HeroHeader";
+import servicesDB from "../../../db/services";
 import Layout from "@/components/Layout";
 import styles from "@/styles/ServiceDetail.module.css";
 import { useRouter } from "next/router";
@@ -9,7 +10,6 @@ export default function ServiceDetail({ service }) {
   const heroProps = {
     locate2: "Browse all information and services",
   };
-
 
   const router = useRouter();
 
@@ -81,8 +81,7 @@ export default function ServiceDetail({ service }) {
 }
 
 export async function getStaticPaths() {
-  const res = await fetch(`${process.env.API_URL}/api/services`);
-  const services = await res.json();
+  const services = servicesDB;
 
   const paths = services.map((serv) => ({
     params: { category: serv.slug },
@@ -95,8 +94,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const res = await fetch(`${process.env.API_URL}/api/services/`);
-  const services = await res.json();
+  const services = servicesDB;
 
   const category = params?.category;
   const item = services.find((data) => data.slug === category);

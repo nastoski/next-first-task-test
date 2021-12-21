@@ -1,3 +1,4 @@
+import agencyDB from '../../db/agency.json'
 import Layout from "@/components/Layout";
 import HeroHeader from "@/components/HeroHeader";
 import styles from "@/styles/Agency.module.css";
@@ -26,11 +27,11 @@ export default function AgencyPage({ data }) {
                   Skip agencies beginning with letter
                 </label>
                 <div className={styles.main__select__container}>
-                  <select id="main__selector">
-                    <option value selected="selected">
+                  <select defaultValue="selected" id="main__selector">
+                    <option value="selected">
                       - Select -
                     </option>
-                    <option value="A">A</option>
+                    <option  value="A">A</option>
                     <option value="B">B</option>
                     <option value="C">C</option>
                   </select>
@@ -42,7 +43,7 @@ export default function AgencyPage({ data }) {
         <div className={styles.accordion__content}>
           {data.map((content, index) => (
             <AccordionComponent
-              key={index}
+              index={index}
               title={content.title}
               about={content.about}
               address={content.address}
@@ -61,8 +62,7 @@ export default function AgencyPage({ data }) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch(`${process.env.API_URL}/api/agency`);
-  const agency = await res.json();
+  const agency = agencyDB
 
   return {
     props: { data: agency },

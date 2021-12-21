@@ -1,3 +1,4 @@
+import governmentDB from "../../../db/government";
 import DocumentCard from "@/components/DocumentCard";
 import Link from "next/link";
 import HeroHeader from "@/components/HeroHeader";
@@ -6,13 +7,14 @@ import styles from "@/styles/GovernmentDetails.module.css";
 import { InfoCard, Paragraph, Heading, Button } from "dpc-components-library";
 
 export default function GovernmentDetails({ gov }) {
+
   return (
     <Layout title={gov.title} description={gov.description}>
       <HeroHeader
         link="/government"
         locate="WA Government"
-        heading="COVID-19 coronavirus"
-        content="Information and advice on the COVID-19 coronavirus for the community and businesses in Western Australia."
+        heading={gov.title}
+        content={gov.description}
       />
       <div className={styles.main}>
         <div className={styles.main__container}>
@@ -92,11 +94,17 @@ export default function GovernmentDetails({ gov }) {
   );
 }
 
-export async function getServerSideProps({ query: { slug } }) {
-  const res = await fetch(`${process.env.API_URL}/api/government/${slug}`);
-  const government = await res.json();
+
+export async function getServerSideProps(params) {
+const government = governmentDB;
+  const governmentDetails = government.filter(
+    (gov) => gov.slug === params.query.slug
+  );
+
 
   return {
-    props: { gov: government[0] },
+    props: {
+      gov: governmentDetails[0],
+    },
   };
 }

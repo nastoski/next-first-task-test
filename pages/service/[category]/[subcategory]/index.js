@@ -1,3 +1,4 @@
+import servicesDB from "../../../../db/services";
 import HeroHeader from "@/components/HeroHeader";
 import Image from "next/image";
 import Layout from "@/components/Layout";
@@ -70,8 +71,7 @@ export default function ServiceInfoPage({ subcategories }) {
 export async function getStaticPaths() {
   const paths = [];
 
-  const res = await fetch(`${process.env.API_URL}/api/services`);
-  const services = await res.json();
+  const services = servicesDB;
 
   const categories = services.map((serv) => serv.slug);
   const subcategories = services.map((serv) =>
@@ -97,8 +97,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const res = await fetch(`${process.env.API_URL}/api/services`);
-  const services = await res.json();
+  const services = servicesDB;
 
   const category = params?.category;
   const subcategory = params?.subcategory;

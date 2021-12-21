@@ -1,4 +1,4 @@
-// import HeroHeader from "@/components/HeroHeader";
+import servicesDB from "../../db/services";
 import Layout from "@/components/Layout";
 import HeroHeader from "@/components/HeroHeader";
 import styles from "@/styles/Services.module.css";
@@ -44,8 +44,7 @@ const ServicePage = ({ services }) => {
 export default ServicePage;
 
 export async function getStaticProps() {
-  const res = await fetch(`${process.env.API_URL}/api/services`);
-  const services = await res.json();
+  const services = servicesDB;
 
   return {
     props: { services },

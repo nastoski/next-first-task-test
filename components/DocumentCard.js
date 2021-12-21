@@ -15,16 +15,12 @@ export default function DocumentCard({
         <div className={styles.document__icon}>
           <FaFileAlt color="gray" size={55} />
           <div className={styles.document__info}>
-            <Link href="#0">
+            {/*<Link href="#">*/}
               <a>{title}</a>
-            </Link>
+            {/*</Link>*/}
             <div className={styles.document__downloads}>
-              <Link href={docx}>
-                <a>{docxDescription}</a>
-              </Link>
-              <Link href={pdf}>
-                <a>{pdfDescription}</a>
-              </Link>
+                <a href={docx}>{docxDescription}</a>
+                <a href={pdf}>{pdfDescription}</a>
             </div>
           </div>
         </div>
